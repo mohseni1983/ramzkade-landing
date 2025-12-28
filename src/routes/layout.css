@@ -2,8 +2,13 @@
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
+:global(html) {
+	color-scheme: dark;
+}
+
 :global(body) {
 	background-color: rgb(3 7 18);
 	color: white;
 	overflow-x: hidden;
+	color-scheme: dark;
 }
